@@ -155,7 +155,7 @@ ootagawa_station_tikkousenn_time = [
                                     ]
 
 from time import time # corrent_timeを取得
-import datetime
+import datetime # 1970/01/01からの時間をわかりやすくする
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
